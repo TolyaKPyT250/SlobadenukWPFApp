@@ -1,0 +1,100 @@
+﻿<Window x:Class="projectGamesPlatformers.Views.GameDetailsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projectGamesPlatformers.Views"
+        mc:Ignorable="d"
+        Title="Информация об игре" Height="520" Width="480" 
+        WindowStartupLocation="CenterOwner" ResizeMode="NoResize"
+        Background="#A8E4A0">
+    <Window.Resources>
+        <Style x:Key="LabelStyle" TargetType="TextBlock">
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Foreground" Value="#89AC76"/>
+            <Setter Property="Margin" Value="0,5"/>
+        </Style>
+
+        <Style x:Key="ValueStyle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#44944A"/>
+            <Setter Property="Margin" Value="10,5,0,5"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#44944A"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Height" Value="35"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#89AC76"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Border Background="White" CornerRadius="15" Margin="20" Padding="20">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="15" Direction="270" Opacity="0.1" ShadowDepth="2"/>
+            </Border.Effect>
+
+            <StackPanel>
+                <TextBlock x:Name="tbTitle" Text="Название игры" 
+                           FontSize="22" FontWeight="Bold" 
+                           Foreground="#44944A" Margin="0,0,0,10" 
+                           TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Center"/>
+
+                <Separator Background="#BDECB6" Height="2" Margin="0,5,0,15"/>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="Разработчик:" Style="{StaticResource LabelStyle}" Grid.Row="0"/>
+                    <TextBlock x:Name="tbDeveloper" Style="{StaticResource ValueStyle}" Grid.Row="0" Grid.Column="1"/>
+
+                    <TextBlock Text="Издатель:" Style="{StaticResource LabelStyle}" Grid.Row="1"/>
+                    <TextBlock x:Name="tbPublisher" Style="{StaticResource ValueStyle}" Grid.Row="1" Grid.Column="1"/>
+
+                    <TextBlock Text="Платформа:" Style="{StaticResource LabelStyle}" Grid.Row="2"/>
+                    <TextBlock x:Name="tbPlatform" Style="{StaticResource ValueStyle}" Grid.Row="2" Grid.Column="1"/>
+
+                    <TextBlock Text="Механика:" Style="{StaticResource LabelStyle}" Grid.Row="3"/>
+                    <TextBlock x:Name="tbMechanics" Style="{StaticResource ValueStyle}" Grid.Row="3" Grid.Column="1"/>
+
+                    <TextBlock Text="Персонаж:" Style="{StaticResource LabelStyle}" Grid.Row="4"/>
+                    <TextBlock x:Name="tbProtagonist" Style="{StaticResource ValueStyle}" Grid.Row="4" Grid.Column="1"/>
+                </Grid>
+
+                <TextBlock Text="Описание:" Style="{StaticResource LabelStyle}" Margin="0,15,0,5"/>
+
+                <Border Background="#ADDFAF" BorderBrush="#89AC76" 
+                        BorderThickness="1" CornerRadius="8" Padding="10">
+                    <ScrollViewer Height="120" VerticalScrollBarVisibility="Auto">
+                        <TextBlock x:Name="tbDescription" 
+                                   Foreground="#44944A"
+                                   TextWrapping="Wrap" 
+                                   Text="Здесь будет описание..."/>
+                    </ScrollViewer>
+                </Border>
+
+                <Button Content="ЗАКРЫТЬ" Width="120" 
+                        HorizontalAlignment="Center" 
+                        Margin="0,20,0,0" 
+                        Click="BtnClose_Click"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,251 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\slobadenukwpfapp\\app\\projectgamesplatformers\\projectgamesplatformers\\views\\mainappwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|solutionrelative:projectgamesplatformers\\views\\mainappwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\slobadenukwpfapp\\app\\projectgamesplatformers\\projectgamesplatformers\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|solutionrelative:projectgamesplatformers\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\slobadenukwpfapp\\app\\projectgamesplatformers\\projectgamesplatformers\\views\\alleditlookupwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|solutionrelative:projectgamesplatformers\\views\\alleditlookupwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\slobadenukwpfapp\\app\\projectgamesplatformers\\projectgamesplatformers\\views\\gamedetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|solutionrelative:projectgamesplatformers\\views\\gamedetailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\slobadenukwpfapp\\app\\projectgamesplatformers\\projectgamesplatformers\\views\\gamedetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|solutionrelative:projectgamesplatformers\\views\\gamedetailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\slobadenukwpfapp\\app\\projectgamesplatformers\\projectgamesplatformers\\views\\registationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|solutionrelative:projectgamesplatformers\\views\\registationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\slobadenukwpfapp\\app\\projectgamesplatformers\\projectgamesplatformers\\views\\mainappwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|solutionrelative:projectgamesplatformers\\views\\mainappwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\slobadenukwpfapp\\app\\projectgamesplatformers\\projectgamesplatformers\\models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|solutionrelative:projectgamesplatformers\\models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\slobadenukwpfapp\\app\\projectgamesplatformers\\projectgamesplatformers\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|solutionrelative:projectgamesplatformers\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\slobadenukwpfapp\\app\\projectgamesplatformers\\projectgamesplatformers\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|solutionrelative:projectgamesplatformers\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\slobadenukwpfapp\\app\\projectgamesplatformers\\projectgamesplatformers\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|solutionrelative:projectgamesplatformers\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\slobadenukwpfapp\\app\\projectgamesplatformers\\projectgamesplatformers\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|solutionrelative:projectgamesplatformers\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\slobadenukwpfapp\\app\\projectgamesplatformers\\projectgamesplatformers\\views\\alleditlookupwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|solutionrelative:projectgamesplatformers\\views\\alleditlookupwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|c:\\users\\\u0430\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\desktop\\slobadenukwpfapp\\app\\projectgamesplatformers\\projectgamesplatformers\\views\\registationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67013D89-41DF-4609-873A-076398265755}|projectGamesPlatformers\\projectGamesPlatformers.csproj|solutionrelative:projectgamesplatformers\\views\\registationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameDetailsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\Views\\GameDetailsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "projectGamesPlatformers\\Views\\GameDetailsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\Views\\GameDetailsWindow.xaml.cs",
+              "RelativeToolTip": "projectGamesPlatformers\\Views\\GameDetailsWindow.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T12:18:05.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameDetailsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\Views\\GameDetailsWindow.xaml",
+              "RelativeDocumentMoniker": "projectGamesPlatformers\\Views\\GameDetailsWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\Views\\GameDetailsWindow.xaml",
+              "RelativeToolTip": "projectGamesPlatformers\\Views\\GameDetailsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-26T12:16:08.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\App.xaml",
+              "RelativeDocumentMoniker": "projectGamesPlatformers\\App.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\App.xaml",
+              "RelativeToolTip": "projectGamesPlatformers\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-26T11:49:15.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AllEditLookupWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\Views\\AllEditLookupWindow.xaml.cs",
+              "RelativeDocumentMoniker": "projectGamesPlatformers\\Views\\AllEditLookupWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\Views\\AllEditLookupWindow.xaml.cs",
+              "RelativeToolTip": "projectGamesPlatformers\\Views\\AllEditLookupWindow.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvxsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T11:48:36.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AllEditLookupWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\Views\\AllEditLookupWindow.xaml",
+              "RelativeDocumentMoniker": "projectGamesPlatformers\\Views\\AllEditLookupWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\Views\\AllEditLookupWindow.xaml",
+              "RelativeToolTip": "projectGamesPlatformers\\Views\\AllEditLookupWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-26T11:47:50.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainAppWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\Views\\MainAppWindow.xaml.cs",
+              "RelativeDocumentMoniker": "projectGamesPlatformers\\Views\\MainAppWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\Views\\MainAppWindow.xaml.cs",
+              "RelativeToolTip": "projectGamesPlatformers\\Views\\MainAppWindow.xaml.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAIUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T11:29:41.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegistationWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\Views\\RegistationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "projectGamesPlatformers\\Views\\RegistationWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\Views\\RegistationWindow.xaml.cs",
+              "RelativeToolTip": "projectGamesPlatformers\\Views\\RegistationWindow.xaml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAiwEUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T11:23:12.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegistationWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\Views\\RegistationWindow.xaml",
+              "RelativeDocumentMoniker": "projectGamesPlatformers\\Views\\RegistationWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\Views\\RegistationWindow.xaml",
+              "RelativeToolTip": "projectGamesPlatformers\\Views\\RegistationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-26T11:21:17.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\Models\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "projectGamesPlatformers\\Models\\Model1.Context.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\Models\\Model1.Context.cs",
+              "RelativeToolTip": "projectGamesPlatformers\\Models\\Model1.Context.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T11:20:30.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "projectGamesPlatformers\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "projectGamesPlatformers\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-02-26T11:16:36.489Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\App.config",
+              "RelativeDocumentMoniker": "projectGamesPlatformers\\App.config",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\App.config",
+              "RelativeToolTip": "projectGamesPlatformers\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAADTAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-02-26T11:16:10.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainAppWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\Views\\MainAppWindow.xaml",
+              "RelativeDocumentMoniker": "projectGamesPlatformers\\Views\\MainAppWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\Views\\MainAppWindow.xaml",
+              "RelativeToolTip": "projectGamesPlatformers\\Views\\MainAppWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-26T11:02:46.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "projectGamesPlatformers\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\MainWindow.xaml",
+              "RelativeToolTip": "projectGamesPlatformers\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-26T10:28:29.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "projectGamesPlatformers\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439\\Desktop\\SlobadenukWPFApp\\App\\projectGamesPlatformers\\projectGamesPlatformers\\MainWindow.xaml.cs",
+              "RelativeToolTip": "projectGamesPlatformers\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAowEMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T10:28:28.455Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+USE user15
+GO
+
+DELETE FROM Users;
+DELETE FROM Developers;
+DELETE FROM Games;
+DELETE FROM Platforms;
+DELETE FROM Publishers;

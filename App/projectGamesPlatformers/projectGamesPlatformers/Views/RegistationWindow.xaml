@@ -1,0 +1,86 @@
+﻿<Window x:Class="projectGamesPlatformers.Views.RegistationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:projectGamesPlatformers.Views"
+        mc:Ignorable="d"
+        Title="Регистрация нового пользователя" SizeToContent="Height" Width="450" 
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" 
+        Background="#A8E4A0">
+    <Window.Resources>
+        <Style TargetType="Control" x:Key="InputStyle">
+            <Setter Property="Background" Value="#ADDFAF"/>
+            <Setter Property="BorderBrush" Value="#89AC76"/>
+            <Setter Property="BorderThickness" Value="1.5"/>
+            <Setter Property="Height" Value="28"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="5,0"/>
+        </Style>
+
+        <Style TargetType="Button" x:Key="PrimaryButton">
+            <Setter Property="Background" Value="#44944A"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Padding" Value="15,0"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#89AC76"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style TargetType="Button" x:Key="SecondaryButton">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="#89AC76"/>
+            <Setter Property="BorderBrush" Value="#89AC76"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Padding" Value="15,0"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Border Background="White" CornerRadius="15" Margin="30" Padding="25">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="15" Direction="270" Opacity="0.15" ShadowDepth="2"/>
+            </Border.Effect>
+
+            <StackPanel>
+                <TextBlock Text="СОЗДАНИЕ АККАУНТА" 
+                           FontSize="18" 
+                           FontWeight="Bold" 
+                           Foreground="#44944A" 
+                           HorizontalAlignment="Center" 
+                           Margin="0,0,0,15"/>
+
+                <TextBlock Text="ФИО:" Foreground="#89AC76" FontWeight="SemiBold"/>
+                <TextBox x:Name="txtFullName" Style="{StaticResource InputStyle}" Margin="0,3,0,10"/>
+
+                <TextBlock Text="Логин (Email):" Foreground="#89AC76" FontWeight="SemiBold"/>
+                <TextBox x:Name="txtRegLogin" Style="{StaticResource InputStyle}" Margin="0,3,0,10"/>
+
+                <TextBlock Text="Пароль:" Foreground="#89AC76" FontWeight="SemiBold"/>
+                <PasswordBox x:Name="txtRegPassword" Style="{StaticResource InputStyle}" Margin="0,3,0,10"/>
+
+                <TextBlock Text="Подтвердите пароль:" Foreground="#89AC76" FontWeight="SemiBold"/>
+                <PasswordBox x:Name="txtConfirmPassword" Style="{StaticResource InputStyle}" Margin="0,3,0,15"/>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Content="Отмена" 
+                            Style="{StaticResource SecondaryButton}" 
+                            Width="80" 
+                            Margin="0,0,10,0" 
+                            Click="BtnCancel_Click"/>
+
+                    <Button Content="Создать аккаунт" 
+                            Style="{StaticResource PrimaryButton}" 
+                            Width="140" 
+                            Click="BtnRegister_Click"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="user15Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="user15Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Developers" EntityType="user15Model.Developer" />
+    <EntitySet Name="Games" EntityType="user15Model.Game" />
+    <EntitySet Name="Platforms" EntityType="user15Model.Platform" />
+    <EntitySet Name="Publishers" EntityType="user15Model.Publisher" />
+    <EntitySet Name="Users" EntityType="user15Model.User" />
+    <AssociationSet Name="FK__Games__Developer__6EF57B66" Association="user15Model.FK__Games__Developer__6EF57B66">
+      <End Role="Developer" EntitySet="Developers" />
+      <End Role="Game" EntitySet="Games" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Games__PlatformI__70DDC3D8" Association="user15Model.FK__Games__PlatformI__70DDC3D8">
+      <End Role="Platform" EntitySet="Platforms" />
+      <End Role="Game" EntitySet="Games" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Games__Publisher__6FE99F9F" Association="user15Model.FK__Games__Publisher__6FE99F9F">
+      <End Role="Publisher" EntitySet="Publishers" />
+      <End Role="Game" EntitySet="Games" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Developer">
+    <Key>
+      <PropertyRef Name="DeveloperID" />
+    </Key>
+    <Property Name="DeveloperID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Games" Relationship="user15Model.FK__Games__Developer__6EF57B66" FromRole="Developer" ToRole="Game" />
+  </EntityType>
+  <EntityType Name="Game">
+    <Key>
+      <PropertyRef Name="GameID" />
+    </Key>
+    <Property Name="GameID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DeveloperID" Type="Int32" />
+    <Property Name="PublisherID" Type="Int32" />
+    <Property Name="Mechanics" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Protagonist" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PlatformID" Type="Int32" />
+    <NavigationProperty Name="Developer" Relationship="user15Model.FK__Games__Developer__6EF57B66" FromRole="Game" ToRole="Developer" />
+    <NavigationProperty Name="Platform" Relationship="user15Model.FK__Games__PlatformI__70DDC3D8" FromRole="Game" ToRole="Platform" />
+    <NavigationProperty Name="Publisher" Relationship="user15Model.FK__Games__Publisher__6FE99F9F" FromRole="Game" ToRole="Publisher" />
+  </EntityType>
+  <EntityType Name="Platform">
+    <Key>
+      <PropertyRef Name="PlatformID" />
+    </Key>
+    <Property Name="PlatformID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Games" Relationship="user15Model.FK__Games__PlatformI__70DDC3D8" FromRole="Platform" ToRole="Game" />
+  </EntityType>
+  <EntityType Name="Publisher">
+    <Key>
+      <PropertyRef Name="PublisherID" />
+    </Key>
+    <Property Name="PublisherID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Games" Relationship="user15Model.FK__Games__Publisher__6FE99F9F" FromRole="Publisher" ToRole="Game" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="FullName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK__Games__Developer__6EF57B66">
+    <End Type="user15Model.Developer" Role="Developer" Multiplicity="0..1" />
+    <End Type="user15Model.Game" Role="Game" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Developer">
+        <PropertyRef Name="DeveloperID" />
+      </Principal>
+      <Dependent Role="Game">
+        <PropertyRef Name="DeveloperID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Games__PlatformI__70DDC3D8">
+    <End Type="user15Model.Platform" Role="Platform" Multiplicity="0..1" />
+    <End Type="user15Model.Game" Role="Game" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Platform">
+        <PropertyRef Name="PlatformID" />
+      </Principal>
+      <Dependent Role="Game">
+        <PropertyRef Name="PlatformID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Games__Publisher__6FE99F9F">
+    <End Type="user15Model.Publisher" Role="Publisher" Multiplicity="0..1" />
+    <End Type="user15Model.Game" Role="Game" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Publisher">
+        <PropertyRef Name="PublisherID" />
+      </Principal>
+      <Dependent Role="Game">
+        <PropertyRef Name="PublisherID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
